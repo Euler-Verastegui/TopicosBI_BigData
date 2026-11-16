@@ -11,6 +11,10 @@ for letra in ("Hola Mundo"):
 contador = 1
 while contador <= 3:
     print(f'Intento {contador}')
-
+    contador+=1
 
 #Do while
+while True:
+    numero = int (input("Ingrese numero > 0: "))
+    if numero > 0:
+        break
